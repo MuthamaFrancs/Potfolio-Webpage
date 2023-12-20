@@ -55,6 +55,10 @@ img:hover{
     align-items: center;
     justify-content: center;
 }
+.myprofile{
+    border: solid black;
+    border-radius: 50%;
+}
 ul li{
     font-size: larger;
     justify-content: center;
@@ -67,7 +71,7 @@ footer{
     margin: auto;
     height: auto;
     bottom: 0px;
-    width: 
+    width: 100%;
 }
 .footercontent a{
     text-decoration: none;
@@ -121,6 +125,7 @@ footer.li{
     margin: 10px;
     font-weight: bolder;
 }
+
 @media(max-width: 600px){
     .footercontent{
         flex-direction: column
