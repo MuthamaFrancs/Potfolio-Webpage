@@ -1,8 +1,11 @@
 *{
     margin: 10px;
-    
     font-family: 'Zilla Slab', serif;
+    font-size: 20px;
     
+}
+p{
+    font-size: larger;
 }
 .nav{
     margin: auto;
@@ -12,7 +15,7 @@
 }
 .nav li{
     float: left;
-    font-size: 2em;
+    font-size: large;
     font-weight: bold;
     list-style: none;
 
@@ -25,7 +28,7 @@
     color: hsl(337, 91%, 67%);
 }
 .nav li a:hover{
-    font-size: larger;
+    font-size:largery;
     color: hsl(337, 91%, 50%);
 }
 h3{
@@ -34,9 +37,6 @@ h3{
     font-size: large;
     text-decoration: underline;
 
-}
-ul{
-    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -47,18 +47,15 @@ img{
     width: 240px;
     margin: auto;
     display: block;
-    opacity: 100%;
+    opacity: 80%;
+    border-radius: 50%;
 }
 img:hover{
-    opacity: 70%;
+    opacity: 100%;
 }
-#body{
+.body{
     align-items: center;
     justify-content: center;
-}
-.myprofile{
-    border: solid black;
-    border-radius: 50%;
 }
 ul li{
     font-size: larger;
