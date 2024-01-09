@@ -1,0 +1,126 @@
+body{
+    font-family: 'PMingLiU-ExtB', sans-serif;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.navbar{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    background: rgba(217, 217, 217, 0.40);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+a {
+    display: block;
+    color: black;
+    font-family: 'PMingLiU-ExtB';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h3{
+    color: #000;font-style: normal;
+    font-family: 'McLaren'; 
+    margin: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    margin-left: 100px;
+    font-size: 168px;
+    font-style: normal;
+    font-weight: 400;
+    color: #b68d579f;
+}
+.bio{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    height: auto;
+    color: #000;
+    flex-shrink: 0;
+    font-size: 60px;
+    font-family: 'PMingLiU-ExtB';
+}
+p {
+    width: 600px;
+    height: 170px;
+    flex-shrink: 0;
+    margin-right: 40px; 
+    font-family: 'PMingLiU-ExtB';
+}
+
+p,
+p > span {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+span.name {
+    font-family: McLaren;
+    color: #000;
+    font-size: 65px;
+    
+}
+
+span.profession {
+    color: #000;
+    font-size: 68px;
+}
+
+span.location {
+    color: #b68d579f;
+    font-size: 64px;
+}
+
+img{      
+    height: 700px;
+    margin-top: 10px;
+    margin-right: 80px;
+    float: right;
+    flex-shrink: 0;
+    border-radius: 0%; /* Use 50% for a circular image */
+    background: url('path-to-image.jpg') / cover no-repeat;
+    overflow-y: auto;
+    opacity: 100%;
+}
+.contact_me {
+    height: 60px; 
+    padding: 10px;
+    opacity: 0.8; 
+    display: inline-flex;
+    margin-left: 100px;
+    background-color: hsla(34, 39%, 53%, 0.624);
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 36px;
+    font-family: 'McLaren';
+    text-decoration: none;
+}
+
+.contact_me:hover {
+    background-color: hsla(34, 89%, 53%, 0.624);
+    opacity: 1; /* Change opacity back to 1 on hover if you want it fully opaque */
+}
