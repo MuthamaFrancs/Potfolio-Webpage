@@ -62,9 +62,9 @@ h3{
     font-size: 60px;
     font-family: 'PMingLiU-ExtB';
 }
-p {
+p.bio {
     width: 600px;
-    height: 170px;
+    height: auto;
     flex-shrink: 0;
     margin-right: 40px; 
     font-family: 'PMingLiU-ExtB';
@@ -124,3 +124,39 @@ img{
     background-color: hsla(34, 89%, 53%, 0.624);
     opacity: 1; /* Change opacity back to 1 on hover if you want it fully opaque */
 }
+.sub-content {
+    margin-left: 160px;
+    font-family: 'Kalnia';
+    font-weight: 200;
+    width: 2000px; /* Set the width of the container */
+    height: 100px;
+}
+
+.sub-content p {
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    border-right: 1px solid #dedede;
+    overflow: hidden; /* Hide the overflow content */
+    white-space: nowrap; /* Prevent text from wrapping initially */
+    animation: typewriter 4s steps(50) 0.5s 1 normal both, infinite linear forwards;
+}
+@keyframes typewriter {
+    from {
+      width: 0;
+    }
+    
+    to {
+      width: 32.0em;
+    }
+  }
+  
+  @keyframes cursorblink {
+    from {
+      border-right: 1px solid #dedede;
+    }
+    
+    to {
+      border-right: 1px solid #666;
+    }
+  }
